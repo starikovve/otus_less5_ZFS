@@ -1,5 +1,4 @@
-автоматизация стенда ZFS по методичке
-
+автоматизация стенда ZFS 
 set -euo pipefail
 LOG=/root/zfs_homework.log
 exec > >(tee -a "$LOG") 2>&1
